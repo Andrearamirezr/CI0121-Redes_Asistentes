@@ -6,10 +6,10 @@ El propósito de este repositorio es que los estudiantes del curso **CI-0121**, 
 
 Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es de **10 puntos de 100** por cada día natural de retraso **máximo de 3 días** de retraso.
 
-- [ ] Tarea 1
+- [ ] [Tarea 1](./tareas/tarea1/)
   - G3: entrega 30 ago
   - G5: entrega 27 ago
-- [ ] Tarea 2
+- [ ] [Tarea 2](./tareas/tarea2/)
   - G3: entrega 30 ago
   - G5: entrega 03 set
 - [ ] Tarea 3
