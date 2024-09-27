@@ -31,3 +31,9 @@ Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es 
 Si tienen consultas de cualquier tipo pueden escribir un correo a [**oscar.quesadawebb@ucr.ac.cr**](mailto:oscar.quesadawebb@ucr.ac.cr), o también a al telegram [**@ozzy_330**](https://t.me/ozzy_330).
 
 Dentro de poco les habilito el Google Sheets con las notas :D
+
+## Grupo 3
+
+Si tienen consultas de cualquier tipo pueden escribir un correo a [**andrea.ramirezrojas@ucr.ac.cr**](mailto:andrea.ramirezrojas@ucr.ac.cr).
+
+Dentro de poco les comparto el link de las notas.
