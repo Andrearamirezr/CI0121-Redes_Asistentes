@@ -1,26 +1,26 @@
 # Solución a la Tarea 1
 
-**Degree:**
+**Grado:**
+
+Se puede calcular como el promedio del grado de cada nodo, con la formula:
 
 $$
- \frac{\text{aristas} \times 2}{\text{nodos}} = \frac{20}{8} = 2.5
+ \frac{2 \times \text{aristas}}{\text{nodos}} = \frac{20}{8} = 2.5
 $$
 
-Por lo tanto el `degree` de la red seria de 2.5 o 2 para que sea constante.
+Por lo tanto el grado de la red seria de 2.5 o 2 para que sea constante.
 
-**Diameter:**
+**Diametro:**
 
-$$
-\frac{8}{2} = 4
-$$
+Como se puede ver en la imagen, el diametro de la ted es de 3.
 
-Por lo tanto el `diameter` de la red seria de 4.
+![Diametro](./diameter.png)
 
-**Bisection bandwidth:**
+**Ancho de banda de bisección:**
 
-$$2 \times r$$
+Como se puede ver en la imagen, el ancho de banda de bisección es de $3\times R$, siendo $R$ el ancho de banda de los enlaces.
 
-Esto por que la topoplogía es basicamente de `ring`, pero con tres nodos con una conexión extra.
+![ancho de banda de bisección](./bisection.png)
 
 **Topologia:**
 
