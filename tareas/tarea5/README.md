@@ -14,7 +14,7 @@ El teorema de **Nyquist** nos da la formuala para calcular la velocidad maxima d
 $$
 \text{max. data rate} = 2 \times \text{bandwidth} \log_2(\text{niveles de bits señal}) \\
 \text{max. data rate} = 2 \times \text{6000000} \log_2 (\text{4}) \\
-\text{max. data rate} = 24 \text{MHz}
+\text{max. data rate} = 24 \text{Mbps}
 $$
 
 - If a binary signal is sent over a 3-kHz channel whose signal-to-noise ratio is 20 dB, what is the maximum achievable data rate?
@@ -48,8 +48,8 @@ $$
 
 - Make a rough estimate of the number of PCS microcells 100 m in diameter it would take to cover San José (45 square km)
 
-Para calcular el radio de la microcelda, $area = \pi \times (\frac{d}{2})^2$, por lo cual $area = \pi \times (\frac{100}{2})^2 = 7853.98m^2$. Con esto podemos calular el numero de celdas necesarias:
+Para calcular el radio de la microcelda, $area = \pi \times (\frac{d}{2})^2$, por lo cual $area = \frac{\pi100^4}{4} = 7853.98m^2$. Con esto podemos calular el numero de celdas necesarias:
 
 $$
-\frac{45000m^2}{7853.98m^2} = 7.854\_\text{celdas}
+\frac{45000000m^2}{7853.98m^2} \approx 5730_\text{celdas}
 $$
