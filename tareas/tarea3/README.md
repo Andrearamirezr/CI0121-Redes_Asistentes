@@ -100,7 +100,7 @@ $$
 $$
 
 $$
-\text{total delay} = 0,03s + 0,06s + 100s = 100,09s
+\text{total delay} = 0,3s + 0,06s + 100s = 100,36s
 $$
 
 ## Solución Message Switching
@@ -138,7 +138,7 @@ $$
 $$
 
 $$
-\text{total delay} = 0,03s + 0,02s + 400s = 400,05s
+\text{total delay} = 0,3s + 0,02s + 400s = 400,32s
 $$
 
 ## Solución Datagram (Packet) Switching
@@ -174,11 +174,11 @@ $$
 $$
 
 $$
-\text{total delay} = 0,03s \times 154 + 0,02s + 0,65s \times 154 + (4-1) \times 0,65s
+\text{total delay} = 0,3s \times 154 + 0,02s + 0,65s \times 154 + (4-1) \times 0,65s
 $$
 
 $$
-\text{total delay} = 4,62 + 0,02s + 100,1s + 1,95s = 106,69s
+\text{total delay} = 46,2 + 0,02s + 100,1s + 1,95s = 148,27s
 $$
 
 > [!NOTE]
