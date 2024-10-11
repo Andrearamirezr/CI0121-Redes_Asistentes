@@ -170,13 +170,16 @@ $$
 Por lo tanto, teniendo el tiempo que tarda en enviar un paquete, se puede calcular el retardo total, teniendo $m$ como la cantidad de "saltos" y $k$ la cantida de paquetes:
 
 $$
-\text{total delay} =  d_{prop} + d_{trans} \times k + (m-1)  \times d_{trans} + (m-1) \times d_{proc}
+\text{total delay} =  d_{prop} + (d_{trans} \times k) + (m-1)  \times d_{trans} + (m-1) \times d_{proc}
 $$
 
 $$
-\text{total delay} =  0,02s + 0,65s \times 154 + (4-1) \times 0,65s + (4-1) \times 0,3s
+\text{total delay} =  0,005s + (0,65s \times 154) + (4-1) \times 0,65s + (4-1) \times 0,3s
 $$
 
 $$
-\text{total delay} = 0,02s + 100,1s + 1,95s + 0,9s = 102,97s
+\text{total delay} = 0,005s + 100,1s + 1,95s + 0,9s = 102,955s
 $$
+
+> [!NOTE]
+> Se hace el calculo de solo la propagación de un enlace $1000km/200000kmps=0,005s$, porque los demás caen dentro del tiempo de transmisión, entonces no es necesario contarlos debido a la concurrencia.
