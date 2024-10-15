@@ -12,8 +12,14 @@ Representa las primeras bandas que se utilizaron para la comunicación fibra óp
 El teorema de **Nyquist** nos da la formuala para calcular la velocidad maxima de un canal, sin ruido/interferencia:
 
 $$
-\text{max. data rate} = 2 \times \text{bandwidth} \log_2(\text{niveles de bits señal}) \\
-\text{max. data rate} = 2 \times \text{6000000} \log_2 (\text{4}) \\
+\text{max. data rate} = 2 \times \text{bandwidth} \log_2(\text{niveles de bits señal})
+$$
+
+$$
+\text{max. data rate} = 2 \times \text{6000000} \log_2 (\text{4})
+$$
+
+$$
 \text{max. data rate} = 24 \text{Mbps}
 $$
 
@@ -30,7 +36,10 @@ S/N = 20 \text{dB} = 10 \times \log_{10}(100)
 $$
 
 $$
-\text{max. data rate} = \text{3000} \times \log_2(101) \\
+\text{max. data rate} = \text{3000} \times \log_2(101)
+$$
+
+$$
 \text{max. data rate} = 19.97 \text{KHz}
 $$
 

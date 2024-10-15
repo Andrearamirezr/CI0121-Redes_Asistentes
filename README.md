@@ -11,8 +11,8 @@ Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es 
   - G5: entrega 27 ago
 - [x] [Tarea 2](./tareas/tarea2/)
   - G3: entrega 30 ago
-  - G5: entrega 03 set
-- [ ] Tarea 3
+  - G5: entrega 27 ago
+- [x] [Tarea 3](./tareas/tarea3/)
   - G3: entrega 06 set
   - G5: entrega 03 set
 - [x] [Tarea 4](./tareas/tarea4/)
@@ -21,10 +21,31 @@ Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es 
 - [x] [Tarea 5](./tareas/tarea5/)
   - G3: entrega 20 set
   - G5: entrega 17 set
+- [ ] [Tarea 6](./tareas/tarea6/)
+  - G3: entrega 18 oct
+  - G5: entrega 15 oct
 
 ## Quiz
 
 - [x] [Quiz 1](./quices/quiz1/)
+
+## Packet Tracer
+
+- [x] [Packet Tracer 1](./packet_tracer/pt1/)
+  - G3: entrega 20 set
+  - G5: entrega 17 set
+- [ ] [Packet Tracer 2](./packet_tracer/pt2/)
+  - G3: entrega 18 oct
+  - G5: entrega 15 oct
+
+## Wireshark
+
+- [x] [Wireshark 1](./wireshark/ws1)
+  - G3: entrega 04 oct
+  - G5: entrega 01 oct
+- [ ] [Wireshark 2](./wireshark/ws2)
+  - G3: entrega 18 oct
+  - G5: entrega 15 oct
 
 ## Grupo 5
 
