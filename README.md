@@ -27,8 +27,9 @@ Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es 
 
 ## Quiz
 
-- [x] [Quiz 1](./quices/quiz1/)
-
+- [x] [Quiz 1](./quiz)
+  - [G3](./quiz/G3/Quiz%201.pdf)
+  - [G5](./quiz/G5/quiz1)
 ## Packet Tracer
 
 - [x] [Packet Tracer 1](./packet_tracer/pt1/)
