@@ -11,8 +11,8 @@ Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es 
   - G5: entrega 27 ago
 - [x] [Tarea 2](./tareas/tarea2/)
   - G3: entrega 30 ago
-  - G5: entrega 03 set
-- [x] Tarea 3
+  - G5: entrega 27 ago
+- [x] [Tarea 3](./tareas/tarea3/)
   - G3: entrega 06 set
   - G5: entrega 03 set
 - [x] [Tarea 4](./tareas/tarea4/)
