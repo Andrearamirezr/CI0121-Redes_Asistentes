@@ -74,4 +74,4 @@ Si tienen consultas de cualquier tipo pueden escribir un correo a [**oscar.quesa
 
 Si tienen consultas de cualquier tipo pueden escribir un correo a [**andrea.ramirezrojas@ucr.ac.cr**](mailto:andrea.ramirezrojas@ucr.ac.cr).
 
-Dentro de poco les comparto el link de las notas.
+[Notas G3](https://docs.google.com/spreadsheets/d/1ZsYoLb9-j-n9hZe3fX56TR-2SzkQCf4EWsf-5r9LxEE/edit?usp=sharing).
