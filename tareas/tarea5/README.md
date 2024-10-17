@@ -32,7 +32,7 @@ $$
 $$
 
 $$
-S/N = 20 \text{dB} = 10 \times \log_{10}(100)
+S/N = 20 \text{dB} = 100
 $$
 
 $$
@@ -40,7 +40,7 @@ $$
 $$
 
 $$
-\text{max. data rate} = 19.97 \text{KHz}
+\text{max. data rate} = 19.97 \text{Kbps}
 $$
 
 - In a typical mobile phone system with hexagonal cells, it is forbidden to reuse a frequency band in an adjacent cell. If 840 frequencies are available, how many can be used in a given cell?
@@ -55,9 +55,12 @@ $$
 \frac{840}{7} = 120
 $$
 
+> [!NOTE]
+> Otros factores de reutilización suelen ser 3 y 12, el más común es 7. Pero resolverlo con alguno de los otros 3 está bien.
+
 - Make a rough estimate of the number of PCS microcells 100 m in diameter it would take to cover San José (45 square km)
 
-Para calcular el radio de la microcelda, $area = \pi \times (\frac{d}{2})^2$, por lo cual $area = \frac{\pi100^4}{4} = 7853.98m^2$. Con esto podemos calular el numero de celdas necesarias:
+Para calcular el radio de la microcelda, $area = \pi \times \frac{d^2}{4}$, por lo cual $area = \pi \times \frac{100^2}{4} \approx 7853.98m^2$. Con esto podemos calular el numero de celdas necesarias:
 
 $$
 \frac{45000000m^2}{7853.98m^2} \approx 5730_\text{celdas}
