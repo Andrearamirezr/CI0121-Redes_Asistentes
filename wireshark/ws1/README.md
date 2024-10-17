@@ -8,7 +8,7 @@ La IP del cliente es `131.247.95.216`
 
 ### B. Use the first two packets to identify the server that is going to be contacted. List the common name, and three IP addresses that can be used for the server.
 
-El servidor es `www.google.com`, y las IPs que se dan como respuesta son:
+La solicitud se hace a `www.google.com`, con CNAME `www.l.google.com`, y las IPs que se dan como respuesta son:
 
 - `64.233.161.99`
 - `64.233.161.104`
@@ -16,7 +16,7 @@ El servidor es `www.google.com`, y las IPs que se dan como respuesta son:
 
 ### C. What is happening in frames 3, 4, and 5?
 
-Estos 3 frames son el **three-way handshake**, que se utiliza el protocolo TCP.
+Estos 3 frames son el **three-way handshake**, que se utiliza en el protocolo TCP.
 
 ### D. What is happening in frames 6 and 7?
 
@@ -28,11 +28,11 @@ No es necesario responder, pero básicamente el servidor esta informando que ha 
 
 ### F. What is happening in frames nine and ten? How are these two frames related?
 
-El frame 9 esta respondiendo a la solicitud en el frame 6 y en el frame 10 está confirmando que se envio correctamente la respuesta.
+El frame 9 esta enviando los datos que se solicitan en el frame 6 y en el frame 10 está confirmando que se envio correctamente la respuesta. Están relacionados porque forman parte ambos de la respuesta a la solicitud del frame 6.
 
 ### G. What happens in packet 11?
 
-Este paquete es la confirmación del cliente de recibir el paquete del frame 9 correctamente.
+Este paquete es la confirmación del cliente de recibir el contenido solicitado en el frame 6 correctamente.
 
 ### H. After the initial set of packets is received, the client sends out a new request in packet 12. This occurs automatically without any action by the user. Why does this occur? See the first “hint” to the left.
 
@@ -43,11 +43,11 @@ Esta solicitud la hace el navegador de forma automática.
 
 ### I. What is occurring in packets 13 through 22?
 
-Se produce la trasnmisión de la imagen solicitada, hasta recibir el ok de la respuesta por parte del servidor.
+Se produce la transmisión de la imagen solicitada, hasta recibir el ok de la respuesta por parte del servidor.
 
 ### J. Explain what happens in packets 23 through 26. See the second “hint” to the left.
 
-Similar al proceso anterior, las páingas web suelen tener un icono que se utiliza para mostrar en las pestañas del navegador, en este caso se solicita el icono de google:
+Similar al proceso anterior, se está enviando un archivo. Las páingas web suelen tener un icono que se utiliza para mostrar en las pestañas del navegador, en este caso se solicita el icono de google:
 
 ![favicon de google](https://www.google.com/favicon.ico)
 
@@ -59,24 +59,24 @@ EL usuario estaba accediendo a una pagina web. En concreto `www.google.com`, una
 
 ### A. In the first few packets, the client machine is looking up the common name (cname) of a web site to find its IP address. What is the cname of this web site? Give two IP addresses for this web site.
 
-El CNAME del sitio web es `yahoo.com`, que apunta a `yahoo.akadns.net` que tiene las siguientes IP's:
+El sitio web es `www.yahoo.com`, que apunta al CNAME `www.yahoo.akadns.net` que tiene las siguientes IP's:
 
-1. `216.209.117.106`
-2. `216.209.117.109`
-3. `216.209.117.104`
-4. `216.209.117.204`
-5. `216.209.117.206`
-6. `216.209.118.70`
-7. `216.209.118.76`
-8. `216.209.118.79`
+1. `216.109.117.106`
+2. `216.109.117.109`
+3. `216.109.117.110`
+4. `216.109.117.204`
+5. `216.109.117.206`
+6. `216.109.118.70`
+7. `216.109.118.76`
+8. `216.109.118.79`
 
 ### B. How many packets/frames does it take to receive the web page (the answer to the first http get request only)?
 
-Toma desde el frame 6 hasta el frame 22, es decir 17 frames.
+Toma desde el frame 6 hasta el frame 22, es decir 16 frames. Son 11 paquetes de enviar la página web y 5 de confirmación de parte del cliente.
 
 ### C. Does this web site use gzip to compress its data for sending? Does it write cookies? In order to answer these questions, look under the payload for the reassembled packet that represents the web page. This will be the last packet from question b above. Look to see if it has “Content-Encoding” set to gzip, and to see if it has a “Set-Cookie” to write a cookie.
 
-Sí usa GZIP y además escribe varias COOCKIES.
+Sí usa 'gzip' y además escriben varias 'cookies'.
 
 ### D. What is happening in packets 26 and 27? Does every component of a web page have to come from the same server? See the Hint to the left.
 
@@ -123,4 +123,10 @@ Como en la conexión a www.my.usf.com se utiliza el protocolo HTTPS, no se puede
 
 ## Ejercicio 4
 
-Pueden ver un ejemplo de como se veria la consulta a [os.ecci.ucr.ac.cr/ci0121](https://os.ecci.ucr.ac.cr/ci0121) en WireShark, [haciendo click aquí](./data/consulta_pregunta4.pcap). Se ve similar a la consulta a my.usf.com, pero como es una web frecuentada (esperamos) entonces no hay consulta a DNS. La IP del servidor `os.ecci.ucr.ac.cr/ci01211` es `163.178.104.62`
+Pueden ver un ejemplo de como se veria la consulta a [os.ecci.ucr.ac.cr/ci0121](https://os.ecci.ucr.ac.cr/ci0121) en WireShark, [haciendo click aquí](./data/consulta_pregunta4.pcap). Se ve similar a la consulta a my.usf.com, pero como es una web frecuentada (esperamos) entonces no hay consulta a DNS. Esto ultimo puede variar.
+
+En rasgos generales lo que debe pasar es:
+
+1. Se hace la resolución DNS, se solicita o se usa de caché la IP que es `163.178.104.62`
+2. Se establece la conexión TCP con un three-way handshake
+3. Se hace el TLS handshake
