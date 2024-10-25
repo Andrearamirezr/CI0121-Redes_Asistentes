@@ -35,12 +35,12 @@ Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es 
   - [G5](./quiz/G5/quiz1)
 - [ ] Quiz 2
   - G3
+  - G5
 - [ ] Quiz 3
   - G3
   - G5
 - [ ] Quiz 4
   - G3
-  - G5
 
 ## Packet Tracer
 
