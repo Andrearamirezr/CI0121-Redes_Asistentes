@@ -2,14 +2,14 @@
 
 ### El esquema de comunicación Bluetooth pertenece a la famila de protocolos:
 
-Wireless o inalámbricos.
+Polling (slave y master)
 
 ### Escriba una ventaja de un protocolo de _canalización_
 
 1. No hay coliciones.
 2. Es justo.
 
-### Si tenemos la siguiente dirección IPv4 $c_3$ $c_4$.194.188.97/16, donde $c_1$ $c_2$ $c_3$ $c_4$ $c_5$ $c_6$ representa su número de carnet (si el carnet fuera A12345, el número sería 23), indique lo siguiente:
+### Si tenemos la siguiente dirección IPv4 $c_3$ $c_4$.194.188.97/16, donde $c_1$ $c_2$ $c_3$ $c_4$ $c_5$ $c_6$ representa su número de carnet (si el carnet fuera A12345, el número sería 23), indique lo [siguiente:](siguiente:.md)
 
 Asumiendo el carnet de ejemplo:
 
@@ -26,10 +26,10 @@ Asumiendo el carnet de ejemplo:
 
 ### Si nos dan la siguiente dirección IPv4 base 192.168.64.0 indique como quedarían las asignaciones de cada rango, debe escribir dirección IPv4 y máscara.
 
-| Rango |    Red (CIDR)     |   Dirección    |   Broadcast    |              Asignables              | Total |
-| :---: | :---------------: | :------------: | :------------: | :----------------------------------: | :---: |
-|   A   |  192.168.64.0/25  |  192.168.64.0  | 192.168.64.127 | 192.168.64.1 - 192.168.64.126 (126)  |  128  |
-|   B   | 192.168.64.128/27 | 192.168.64.128 | 192.168.64.159 | 192.168.64.129 - 192.168.64.158 (30) |  32   |
-|   C   | 192.168.64.160/26 | 192.168.64.160 | 192.168.64.223 | 192.168.64.161 - 192.168.64.222 (62) |  64   |
+| Rango |    Red (CIDR)     |   Dirección    |   Broadcast    |            IPs Asignables            | IPs Totales |
+| :---: | :---------------: | :------------: | :------------: | :----------------------------------: | :---------: |
+|   A   |  192.168.64.0/25  |  192.168.64.0  | 192.168.64.127 | 192.168.64.1 - 192.168.64.126 (126)  |     128     |
+|   B   | 192.168.64.128/27 | 192.168.64.128 | 192.168.64.159 | 192.168.64.129 - 192.168.64.158 (30) |     32      |
+|   C   | 192.168.64.160/26 | 192.168.64.160 | 192.168.64.223 | 192.168.64.161 - 192.168.64.222 (62) |     64      |
 
 Recordar que la dirección y el broadcast no son direcciones utilizables.
