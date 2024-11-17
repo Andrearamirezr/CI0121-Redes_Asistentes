@@ -37,11 +37,11 @@ Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es 
   - G3: entrega 08 nov
   - G5: entrega 05 nov
 - [ ] [Tarea 11](./tareas/tarea11/)
-  - G3: entrega 22 nov
-  - G5: entrega 19 nov
+  - G3: entrega 15 nov
+  - G5: entrega 12 nov
 - [ ] [Tarea 12](./tareas/tarea12/)
-  - G3: entrega 22 nov
-  - G5: entrega 19 nov
+  - G3: entrega 15 nov
+  - G5: entrega 12 nov
 
 ## Quiz
 
