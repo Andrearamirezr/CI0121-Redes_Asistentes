@@ -6,7 +6,7 @@ Polling (slave y master)
 
 ### Escriba una ventaja de un protocolo de _canalización_
 
-1. No hay coliciones.
+1. No hay colisiones.
 2. Es justo.
 
 ### Si tenemos la siguiente dirección IPv4 $c_3$ $c_4$.194.188.97/16, donde $c_1$ $c_2$ $c_3$ $c_4$ $c_5$ $c_6$ representa su número de carnet (si el carnet fuera A12345, el número sería 23), indique lo [siguiente:](siguiente:.md)
