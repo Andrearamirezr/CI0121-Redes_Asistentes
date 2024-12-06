@@ -21,25 +21,25 @@ Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es 
 - [x] [Tarea 5](./tareas/tarea5/)
   - G3: entrega 20 set
   - G5: entrega 17 set
-- [ ] [Tarea 6](./tareas/tarea6/)
+- [x] [Tarea 6](./tareas/tarea6/)
   - G3: entrega 18 oct
   - G5: entrega 15 oct
-- [ ] [Tarea 7](./tareas/tarea7/)
+- [x] [Tarea 7](./tareas/tarea7/)
   - G3: entrega 01 nov
   - G5: entrega 29 oct
-- [ ] [Tarea 8](./tareas/tarea8/)
+- [x] [Tarea 8](./tareas/tarea8/)
   - G3: entrega 01 nov
   - G5: entrega 29 oct
-- [ ] [Tarea 9](./tareas/tarea9/)
+- [x] [Tarea 9](./tareas/tarea9/)
   - G3: entrega 08 nov
   - G5: entrega 05 nov
-- [ ] [Tarea 10](./tareas/tarea10/)
+- [x] [Tarea 10](./tareas/tarea10/)
   - G3: entrega 08 nov
   - G5: entrega 05 nov
-- [ ] [Tarea 11](./tareas/tarea11/)
+- [x] [Tarea 11](./tareas/tarea11/)
   - G3: entrega 15 nov
   - G5: entrega 12 nov
-- [ ] [Tarea 12](./tareas/tarea12/)
+- [x] [Tarea 12](./tareas/tarea12/)
   - G3: entrega 15 nov
   - G5: entrega 12 nov
 
@@ -62,14 +62,14 @@ Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es 
 - [x] [Packet Tracer 1](./packet_tracer/pt1/)
   - G3: entrega 20 set
   - G5: entrega 17 set
-- [ ] [Packet Tracer 2](./packet_tracer/pt2/)
+- [x] [Packet Tracer 2](./packet_tracer/pt2/)
   - G3: entrega 18 oct
   - G5: entrega 15 oct
-- [ ] [Packet Tracer VLAN](./packet_tracer/ptv/)
-- [ ] [Packet Tracer 3](./packet_tracer/pt3/)
+- [x] [Packet Tracer VLAN](./packet_tracer/ptv/)
+- [x] [Packet Tracer 3 y 4](./packet_tracer/pt3/)
   - G3: entrega 01 nov
   - G5: entrega 29 oct
-- [ ] [Packet Tracer 4](./packet_tracer/pt4/)
+- [x] [Packet Tracer 5, 6 y 7](./packet_tracer/pt4/)
   - G3: entrega 22 nov
   - G5: entrega 19 oct
 
@@ -78,7 +78,7 @@ Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es 
 - [x] [Wireshark 1](./wireshark/ws1)
   - G3: entrega 04 oct
   - G5: entrega 01 oct
-- [ ] [Wireshark 2](./wireshark/ws2)
+- [x] [Wireshark 2](./wireshark/ws2)
   - G3: entrega 18 oct
   - G5: entrega 15 oct
 
