@@ -1,6 +1,6 @@
 # Solución de la tarea 6
 
-Primero se necesitan organizar los rangos:
+Primero se necesitan organizar los rangos, agregando `dirección` y `broadcast` a los rangos:
 
 - B: 127 + 2 = **129**
 - E: 63 + 2 = **65**
@@ -9,15 +9,22 @@ Primero se necesitan organizar los rangos:
 - D: 15 + 2 = **17**
 - F: 7 + 2 = **9**
 
+Como las IPs de una red solo se puede subdividir con una máscara que sea $2^n$. Se justan los rangos a valores validos que incluyan la `dirección`, su `broadcast` y las IPs asignables.
+
+- B: 129 -> **256**
+- E: 65 -> **128**
+- C: 32 -> **32**
+- A: 18 -> **32**
+- D: 17 -> **32**
+- F: 9 -> **16**
+
 Se comienzan a asignar las IPs apartir de los rangos más pequeños, tomando en cuenta que la red asisgnada es `192.168.24.0`:
 
-| Rango |        Red        |   Dirección    |   Broadcast    |           Asignables            | Total |
+| Rango |    Red (CIDR)     |   Dirección    |   Broadcast    |           Asignables            | Total |
 | :---: | :---------------: | :------------: | :------------: | :-----------------------------: | :---: |
-|   F   |  192.168.24.0/28  |  192.168.24.0  | 192.168.24.15  |  192.168.24.1 - 192.168.24.15   |  16   |
-|   D   | 192.168.24.16/27  | 192.168.24.16  | 192.168.24.47  |  192.168.24.17 - 192.168.24.46  |  32   |
-|   A   | 192.168.24.48/27  | 192.168.24.48  | 192.168.24.79  |  192.168.24.49 - 192.168.24.78  |  32   |
-|   C   | 192.168.24.80/27  | 192.168.24.80  | 192.168.24.111 | 192.168.24.81 - 192.168.24.110  |  32   |
-|   E   | 192.168.24.112/25 | 192.168.24.112 | 192.168.24.239 | 192.168.24.113 - 192.168.24.238 |  128  |
-|   B   | 192.168.24.240/24 |      ---       |      ---       |               ---               |  ---  |
-
-Hay que tomar en cuenta que apesar de que se solicitan en total 255 IPs, para el rango 'B' no quedan suficientes IPs esto porque una red solo se puede subdividir con una máscara que sea $2^n$. Además de que cada rango de red tiene su `dirección` y su `broadcast`.
+|   B   |  192.168.24.0/24  |  192.168.24.0  | 192.168.24.255 |  192.168.24.1 - 192.168.24.254  |  256  |
+|   E   |  192.168.25.0/25  |  192.168.25.0  | 192.168.25.127 |  192.168.25.1 - 192.168.25.126  |  128  |
+|   C   | 192.168.25.128/27 | 192.168.25.128 | 192.168.25.159 | 192.168.25.129 - 192.168.25.158 |  32   |
+|   A   | 192.168.25.160/27 | 192.168.25.160 | 192.168.25.191 | 192.168.25.161 - 192.168.25.190 |  32   |
+|   D   | 192.168.25.192/27 | 192.168.25.192 | 192.168.25.223 | 192.168.25.193 - 192.168.25.222 |  32   |
+|   F   | 192.168.25.224/28 | 192.168.25.224 | 192.168.25.240 | 192.168.25.225 - 192.168.25.239 |  16   |
