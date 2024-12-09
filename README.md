@@ -49,13 +49,13 @@ Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es 
   - [G3](./quiz/G3/Quiz%201.pdf)
   - [G5](./quiz/G5/quiz1)
 - [x] Quiz 2
-  - G3
+  - [G3](https://github.com/Andrearamirezr/CI0121-Redes_Asistentes/blob/main/quiz/G3/Quiz%202%20-%20Soluci%C3%B3n.pdf)
   - [G5](./quiz/G5/quiz2/)
 - [x] Quiz 3
-  - G3
+  - [G3](https://github.com/Andrearamirezr/CI0121-Redes_Asistentes/blob/main/quiz/G3/Quiz%203%20-%20Soluci%C3%B3n.pdf)
   - [G5](./quiz/G5/quiz3/)
-- [ ] Quiz 4
-  - G3
+- [x] Quiz 4
+  - [G3](https://github.com/Andrearamirezr/CI0121-Redes_Asistentes/blob/main/quiz/G3/Quiz%204%20-%20Soluci%C3%B3n.pdf)
 
 ## Packet Tracer
 
