@@ -33,7 +33,7 @@ end
 exit
 ```
 
-De R2 a PC1 () se transmisten 3/5 (60%), respecto a las máquinas se tiene que:
+### De R2 a PC1 () se transmisten 3/5 (60%), respecto a las máquinas se tiene que:
 
 | Fuente | Destino             | Hace `ping` | Acierto |
 | ------ | ------------------- | ----------- | ------- |
@@ -54,7 +54,7 @@ end
 exit
 ```
 
-Las entradas de RIP envidas desde R3 son:
+### Las entradas de RIP envidas desde R3 son:
 
 - 10.0.0.0/8
 - 172.30.100.0/24
@@ -62,7 +62,7 @@ Las entradas de RIP envidas desde R3 son:
 - 172.30.200.16/28
 - 209.165.200.0/24
 
-Las ruta que actualizan RIP que en R2 que se reciben de R3 son:
+### Las ruta que actualizan RIP en R2 que se reciben de R3 son:
 
 - 172.30.0.0/16
 
@@ -77,14 +77,14 @@ end
 exit
 ```
 
-Ahora R1 envia actualizaciones de las siguientes rutas:
+### Ahora R1 envia actualizaciones de las siguientes rutas:
 
 - 172.30.1.0/24
 - 172.30.1.0/24
 
-Además estas mismas son recibidas por R2 junto con las mascaras de subred.
+### Además estas mismas son recibidas por R2 junto con las mascaras de subred.
 
-Se hacen prueba de pign:
+### Se hacen prueba de pign:
 
 | Fuente | Destino             | Hace `ping` | Acierto |
 | ------ | ------------------- | ----------- | ------- |
@@ -149,7 +149,7 @@ network 192.168.10.8 0.0.0.3 area 0
 end
 ```
 
-Las ID para R1, R2 y R3 son `192.168.10.5`, `192.168.10.9` y `192.168.10.10` respectivamente.
+### Las ID para R1, R2 y R3 son `192.168.10.5`, `192.168.10.9` y `192.168.10.10` respectivamente.
 
 Ahora se configura el loopback para cada uno de los routers:
 
@@ -183,7 +183,7 @@ reload
 yes
 ```
 
-Ahora los ID cambiaron para R1, R2 y R3 a `10.1.1.1`, `10.2.2.2` y `10.3.3.3` respectivamente.
+### Ahora los ID cambiaron para R1, R2 y R3 a `10.1.1.1`, `10.2.2.2` y `10.3.3.3` respectivamente.
 
 Se cambian el badnwith de los routers R1 y R2:
 
