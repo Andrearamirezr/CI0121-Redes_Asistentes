@@ -66,10 +66,10 @@ Estado de las tareas por revisar. Recuerden la penalidad por entrega tardía es 
   - G3: entrega 18 oct
   - G5: entrega 15 oct
 - [x] [Packet Tracer VLAN](./packet_tracer/ptv/)
-- [x] [Packet Tracer 3 y 4](./packet_tracer/pt3/)
+- [x] [Packet Tracer 3 y 4](./packet_tracer/pt3_4/)
   - G3: entrega 01 nov
   - G5: entrega 29 oct
-- [x] [Packet Tracer 5, 6 y 7](./packet_tracer/pt4/)
+- [x] [Packet Tracer 5, 6 y 7](./packet_tracer/pt5_6_7/)
   - G3: entrega 22 nov
   - G5: entrega 19 oct
 
