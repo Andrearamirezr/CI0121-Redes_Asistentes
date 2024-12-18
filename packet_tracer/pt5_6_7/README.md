@@ -86,7 +86,7 @@ Los puesrtos estan invertidos.
 
 #### D. What is the last section of the PDU called? What is the IP address for the name multiserver.pt.ptu?
 
-Se llama "DNAS ANSWER" y la IP al dominio es `192.168.1.254`
+Se llama "DNS ANSWER" y la IP al dominio es `192.168.1.254`
 
 ### Email
 
